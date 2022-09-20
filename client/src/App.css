@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+.container {
+  background-color: lightgray;
+  min-height: 54em;
+  height: auto;
+}
+.NavBar {
+  width: 50%;
+  height: 40px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+.NavBar button {
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+
+}
+
+.create_form_container {
+  min-height: 30em;
+  height: auto;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create_form_container textarea {
+  margin: 30px;
+}
+.create_form_container label {
+  font-size: larger;
+  font-weight: 700;
+}
+.create_form_container button {
+  height: 40px;
+  width: 150px;
+  border: solid black;
+  box-shadow: -5px 5px 10px;
+  color: rgb(8, 4, 15);
+  background-color: rgb(182, 182, 182);
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.create_form_container input {
+  margin: 30px;
+}
+
+.table_container {
+  padding: 40px 0px;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.tableData {
+  border: solid black collapse;
+  background-color: white;
+  width: 80%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background-image: linear-gradient(90deg, yellow -10%, white, white,   white, white 90%, yellow);
+}
+.tableData td {
+  padding: 25px;
+  border: solid black;
+  word-wrap: break-word;
+
+}
+.tableData button{
+  padding: 5px;
+  margin: 15px;
+  cursor: pointer;
+}
+.tableData tr {
+  width: 50%;
+}
+.Link {
+  margin: 15px;
+  cursor: pointer;
+}
+
+.delete-button {
+  color: white;
+  background-color: red;
+  font-weight: 800;
+  border-radius: 40%;
+  box-shadow: 0;
+  border: solid black;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+#checkbox {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
